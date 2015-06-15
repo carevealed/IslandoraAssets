@@ -62,247 +62,6 @@
           </actions>
         </properties>
         <children>
-          <element name="Title">
-            <properties>
-              <type>textfield</type>
-              <access>TRUE</access>
-              <collapsed>FALSE</collapsed>
-              <collapsible>FALSE</collapsible>
-              <disabled>FALSE</disabled>
-              <executes_submit_callback>FALSE</executes_submit_callback>
-              <multiple>FALSE</multiple>
-              <required>FALSE</required>
-              <resizable>FALSE</resizable>
-              <title>Title</title>
-              <tree>TRUE</tree>
-              <actions>
-                <create>
-                  <path>self::node()</path>
-                  <context>parent</context>
-                  <schema/>
-                  <type>element</type>
-                  <prefix>NULL</prefix>
-                  <value>Title</value>
-                </create>
-                <read>
-                  <path>Title</path>
-                  <context>parent</context>
-                </read>
-                <update>
-                  <path>self::node()</path>
-                  <context>self</context>
-                </update>
-                <delete>NULL</delete>
-              </actions>
-            </properties>
-            <children/>
-          </element>
-          <element name="creators">
-            <properties>
-              <type>tags</type>
-              <access>TRUE</access>
-              <collapsed>FALSE</collapsed>
-              <collapsible>FALSE</collapsible>
-              <disabled>FALSE</disabled>
-              <executes_submit_callback>FALSE</executes_submit_callback>
-              <multiple>FALSE</multiple>
-              <required>FALSE</required>
-              <resizable>FALSE</resizable>
-              <title>Creator</title>
-              <tree>TRUE</tree>
-              <actions>
-                <create>
-                  <path>self::node()</path>
-                  <context>parent</context>
-                  <schema/>
-                  <type>element</type>
-                  <prefix>NULL</prefix>
-                  <value>creators</value>
-                </create>
-                <read>NULL</read>
-                <update>NULL</update>
-                <delete>NULL</delete>
-              </actions>
-            </properties>
-            <children>
-              <element name="creator">
-                <properties>
-                  <type>tag</type>
-                  <access>TRUE</access>
-                  <collapsed>FALSE</collapsed>
-                  <collapsible>FALSE</collapsible>
-                  <disabled>FALSE</disabled>
-                  <executes_submit_callback>FALSE</executes_submit_callback>
-                  <multiple>FALSE</multiple>
-                  <required>FALSE</required>
-                  <resizable>FALSE</resizable>
-                  <title>Creator</title>
-                  <tree>TRUE</tree>
-                  <actions>
-                    <create>
-                      <path>self::node()</path>
-                      <context>parent</context>
-                      <schema/>
-                      <type>element</type>
-                      <prefix>NULL</prefix>
-                      <value>creator</value>
-                    </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
-                    <delete>NULL</delete>
-                  </actions>
-                </properties>
-                <children/>
-              </element>
-            </children>
-          </element>
-          <element name="years">
-            <properties>
-              <type>tags</type>
-              <access>TRUE</access>
-              <collapsed>FALSE</collapsed>
-              <collapsible>FALSE</collapsible>
-              <disabled>FALSE</disabled>
-              <executes_submit_callback>FALSE</executes_submit_callback>
-              <multiple>FALSE</multiple>
-              <required>FALSE</required>
-              <resizable>FALSE</resizable>
-              <title>years</title>
-              <tree>TRUE</tree>
-              <actions>
-                <create>
-                  <path>self::node()</path>
-                  <context>parent</context>
-                  <schema/>
-                  <type>element</type>
-                  <prefix>NULL</prefix>
-                  <value>years</value>
-                </create>
-                <read>NULL</read>
-                <update>NULL</update>
-                <delete>NULL</delete>
-              </actions>
-            </properties>
-            <children>
-              <element name="year">
-                <properties>
-                  <type>tag</type>
-                  <access>TRUE</access>
-                  <collapsed>FALSE</collapsed>
-                  <collapsible>FALSE</collapsible>
-                  <disabled>FALSE</disabled>
-                  <executes_submit_callback>FALSE</executes_submit_callback>
-                  <multiple>FALSE</multiple>
-                  <required>FALSE</required>
-                  <resizable>FALSE</resizable>
-                  <title>year</title>
-                  <tree>TRUE</tree>
-                  <actions>
-                    <create>
-                      <path>self::node()</path>
-                      <context>parent</context>
-                      <schema/>
-                      <type>element</type>
-                      <prefix>NULL</prefix>
-                      <value>year</value>
-                    </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
-                    <delete>NULL</delete>
-                  </actions>
-                </properties>
-                <children/>
-              </element>
-            </children>
-          </element>
-          <element name="contributors">
-            <properties>
-              <type>tags</type>
-              <access>TRUE</access>
-              <collapsed>FALSE</collapsed>
-              <collapsible>FALSE</collapsible>
-              <disabled>FALSE</disabled>
-              <executes_submit_callback>FALSE</executes_submit_callback>
-              <multiple>FALSE</multiple>
-              <required>FALSE</required>
-              <resizable>FALSE</resizable>
-              <title>Contributors</title>
-              <tree>TRUE</tree>
-              <actions>
-                <create>
-                  <path>self::node()</path>
-                  <context>parent</context>
-                  <schema/>
-                  <type>element</type>
-                  <prefix>NULL</prefix>
-                  <value>contributors</value>
-                </create>
-                <read>NULL</read>
-                <update>NULL</update>
-                <delete>NULL</delete>
-              </actions>
-            </properties>
-            <children>
-              <element name="contributor">
-                <properties>
-                  <type>tag</type>
-                  <access>TRUE</access>
-                  <collapsed>FALSE</collapsed>
-                  <collapsible>FALSE</collapsible>
-                  <disabled>FALSE</disabled>
-                  <executes_submit_callback>FALSE</executes_submit_callback>
-                  <multiple>FALSE</multiple>
-                  <required>FALSE</required>
-                  <resizable>FALSE</resizable>
-                  <title>contributor</title>
-                  <tree>TRUE</tree>
-                  <actions>
-                    <create>
-                      <path>self::node()</path>
-                      <context>parent</context>
-                      <schema/>
-                      <type>element</type>
-                      <prefix>NULL</prefix>
-                      <value>contributor</value>
-                    </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
-                    <delete>NULL</delete>
-                  </actions>
-                </properties>
-                <children/>
-              </element>
-            </children>
-          </element>
-          <element name="publisher">
-            <properties>
-              <type>textfield</type>
-              <access>TRUE</access>
-              <collapsed>FALSE</collapsed>
-              <collapsible>FALSE</collapsible>
-              <disabled>FALSE</disabled>
-              <executes_submit_callback>FALSE</executes_submit_callback>
-              <multiple>FALSE</multiple>
-              <required>FALSE</required>
-              <resizable>FALSE</resizable>
-              <title>Publisher</title>
-              <tree>TRUE</tree>
-              <actions>
-                <create>
-                  <path>self::node()</path>
-                  <context>parent</context>
-                  <schema/>
-                  <type>element</type>
-                  <prefix>NULL</prefix>
-                  <value>publisher</value>
-                </create>
-                <read>NULL</read>
-                <update>NULL</update>
-                <delete>NULL</delete>
-              </actions>
-            </properties>
-            <children/>
-          </element>
           <element name="institutionName">
             <properties>
               <type>textfield</type>
@@ -323,7 +82,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>institution_name</value>
+                  <value>institutionName</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -332,9 +91,571 @@
             </properties>
             <children/>
           </element>
+          <element name="TitlePair">
+            <properties>
+              <type>fieldset</type>
+              <access>TRUE</access>
+              <collapsed>FALSE</collapsed>
+              <collapsible>FALSE</collapsible>
+              <disabled>FALSE</disabled>
+              <executes_submit_callback>FALSE</executes_submit_callback>
+              <multiple>FALSE</multiple>
+              <required>FALSE</required>
+              <resizable>FALSE</resizable>
+              <title>Title</title>
+              <tree>TRUE</tree>
+              <actions>
+                <create>
+                  <path>self::node()</path>
+                  <context>parent</context>
+                  <schema/>
+                  <type>element</type>
+                  <prefix>NULL</prefix>
+                  <value>Title</value>
+                </create>
+                <read>NULL</read>
+                <update>NULL</update>
+                <delete>NULL</delete>
+              </actions>
+            </properties>
+            <children>
+              <element name="title">
+                <properties>
+                  <type>textfield</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <title>Title</title>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>title</value>
+                    </create>
+                    <read>
+                      <path>Title</path>
+                      <context>parent</context>
+                    </read>
+                    <update>
+                      <path>self::node()</path>
+                      <context>self</context>
+                    </update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children/>
+              </element>
+              <element name="titleType">
+                <properties>
+                  <type>textfield</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <title>Type</title>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>titleType</value>
+                    </create>
+                    <read>NULL</read>
+                    <update>NULL</update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children/>
+              </element>
+            </children>
+          </element>
+          <element name="creators">
+            <properties>
+              <type>tabs</type>
+              <access>TRUE</access>
+              <collapsed>FALSE</collapsed>
+              <collapsible>FALSE</collapsible>
+              <disabled>FALSE</disabled>
+              <executes_submit_callback>FALSE</executes_submit_callback>
+              <multiple>FALSE</multiple>
+              <required>FALSE</required>
+              <resizable>FALSE</resizable>
+              <title>Creator</title>
+              <tree>TRUE</tree>
+              <actions>
+                <create>
+                  <path>self::node()</path>
+                  <context>parent</context>
+                  <schema/>
+                  <type>element</type>
+                  <prefix>NULL</prefix>
+                  <value>Creators</value>
+                </create>
+                <read>NULL</read>
+                <update>NULL</update>
+                <delete>NULL</delete>
+              </actions>
+            </properties>
+            <children>
+              <element name="0">
+                <properties>
+                  <type>tabpanel</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>Creator</value>
+                    </create>
+                    <read>NULL</read>
+                    <update>NULL</update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children>
+                  <element name="creator">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Creator name</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>name</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="creatorRole">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Creator Role</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>role</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
+              </element>
+            </children>
+          </element>
+          <element name="Years">
+            <properties>
+              <type>tabs</type>
+              <access>TRUE</access>
+              <collapsed>FALSE</collapsed>
+              <collapsible>FALSE</collapsible>
+              <disabled>FALSE</disabled>
+              <executes_submit_callback>FALSE</executes_submit_callback>
+              <multiple>FALSE</multiple>
+              <required>FALSE</required>
+              <resizable>FALSE</resizable>
+              <title>Years</title>
+              <tree>TRUE</tree>
+              <actions>
+                <create>
+                  <path>self::node()</path>
+                  <context>parent</context>
+                  <schema/>
+                  <type>element</type>
+                  <prefix>NULL</prefix>
+                  <value>Years</value>
+                </create>
+                <read>NULL</read>
+                <update>NULL</update>
+                <delete>NULL</delete>
+              </actions>
+            </properties>
+            <children>
+              <element name="0">
+                <properties>
+                  <type>tabpanel</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>Year</value>
+                    </create>
+                    <read>NULL</read>
+                    <update>NULL</update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children>
+                  <element name="year">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Year</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>year</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="dateType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Date Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>dateType</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
+              </element>
+            </children>
+          </element>
+          <element name="Contributors">
+            <properties>
+              <type>tabs</type>
+              <access>TRUE</access>
+              <collapsed>TRUE</collapsed>
+              <collapsible>TRUE</collapsible>
+              <disabled>FALSE</disabled>
+              <executes_submit_callback>FALSE</executes_submit_callback>
+              <multiple>FALSE</multiple>
+              <required>FALSE</required>
+              <resizable>FALSE</resizable>
+              <title>Contributors</title>
+              <tree>TRUE</tree>
+              <actions>
+                <create>
+                  <path>self::node()</path>
+                  <context>parent</context>
+                  <schema/>
+                  <type>element</type>
+                  <prefix>NULL</prefix>
+                  <value>Contributors</value>
+                </create>
+                <read>NULL</read>
+                <update>NULL</update>
+                <delete>NULL</delete>
+              </actions>
+            </properties>
+            <children>
+              <element name="0">
+                <properties>
+                  <type>tabpanel</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>Contributor</value>
+                    </create>
+                    <read>NULL</read>
+                    <update>NULL</update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children>
+                  <element name="contributorName">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Contributor Name</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>name</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="contributorRole">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Contributor Role</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>role</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
+              </element>
+            </children>
+          </element>
+          <element name="Publishers">
+            <properties>
+              <type>tabs</type>
+              <access>TRUE</access>
+              <collapsed>FALSE</collapsed>
+              <collapsible>FALSE</collapsible>
+              <disabled>FALSE</disabled>
+              <executes_submit_callback>FALSE</executes_submit_callback>
+              <multiple>FALSE</multiple>
+              <required>FALSE</required>
+              <resizable>FALSE</resizable>
+              <title>Publishers</title>
+              <tree>TRUE</tree>
+              <actions>
+                <create>
+                  <path>self::node()</path>
+                  <context>parent</context>
+                  <schema/>
+                  <type>element</type>
+                  <prefix>NULL</prefix>
+                  <value>Publishers</value>
+                </create>
+                <read>NULL</read>
+                <update>NULL</update>
+                <delete>NULL</delete>
+              </actions>
+            </properties>
+            <children>
+              <element name="0">
+                <properties>
+                  <type>tabpanel</type>
+                  <access>TRUE</access>
+                  <collapsed>FALSE</collapsed>
+                  <collapsible>FALSE</collapsible>
+                  <disabled>FALSE</disabled>
+                  <executes_submit_callback>FALSE</executes_submit_callback>
+                  <multiple>FALSE</multiple>
+                  <required>FALSE</required>
+                  <resizable>FALSE</resizable>
+                  <tree>TRUE</tree>
+                  <actions>
+                    <create>
+                      <path>self::node()</path>
+                      <context>parent</context>
+                      <schema/>
+                      <type>element</type>
+                      <prefix>NULL</prefix>
+                      <value>Publisher</value>
+                    </create>
+                    <read>NULL</read>
+                    <update>NULL</update>
+                    <delete>NULL</delete>
+                  </actions>
+                </properties>
+                <children>
+                  <element name="publisherName">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Publisher Name</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>name</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="publisherRole">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Publisher Role</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>role</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
+              </element>
+            </children>
+          </element>
           <element name="languageOfMaterials">
             <properties>
-              <type>tags</type>
+              <type>tag</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -391,9 +712,9 @@
               </element>
             </children>
           </element>
-          <element name="descriptions">
+          <element name="Descriptions">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -402,7 +723,7 @@
               <multiple>FALSE</multiple>
               <required>FALSE</required>
               <resizable>FALSE</resizable>
-              <title>descriptions</title>
+              <title>Descriptions</title>
               <tree>TRUE</tree>
               <actions>
                 <create>
@@ -411,7 +732,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>languagesOfMaterial</value>
+                  <value>Descriptions</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -419,9 +740,9 @@
               </actions>
             </properties>
             <children>
-              <element name="contributor">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -430,7 +751,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>description</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -439,20 +759,79 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>description</value>
+                      <value>Description</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="descriptionValue">
+                    <properties>
+                      <type>textarea</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Description</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="descriptionType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Description Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
           <element name="subjectTopics">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -470,7 +849,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>subjectTopics</value>
+                  <value>SubjectTopics</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -478,9 +857,9 @@
               </actions>
             </properties>
             <children>
-              <element name="subjectTopic">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -489,7 +868,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Subject Topic</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -498,14 +876,73 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>subjectTopic</value>
+                      <value>SubjectTopic</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="subjectTopicValue">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Subject Topic</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="subjectTopicType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Subject Topic Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>Type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
@@ -540,7 +977,7 @@
           </element>
           <element name="converages">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -558,7 +995,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>converages</value>
+                  <value>Converages</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -566,9 +1003,9 @@
               </actions>
             </properties>
             <children>
-              <element name="converage">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -577,7 +1014,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Converages</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -586,14 +1022,73 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>converage</value>
+                      <value>Converage</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="converageValue">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Converage</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="converageType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Converage</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
@@ -626,9 +1121,9 @@
             </properties>
             <children/>
           </element>
-          <element name="relationships">
+          <element name="Relationships">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -646,7 +1141,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>relationships</value>
+                  <value>Relationships</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -654,9 +1149,9 @@
               </actions>
             </properties>
             <children>
-              <element name="relationship">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -665,7 +1160,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Relationship</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -681,13 +1175,72 @@
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="relationshipValue">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Relationship</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="relationshipType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Relationship Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
           <element name="additionalTitles">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -705,7 +1258,7 @@
                   <schema/>
                   <type>element</type>
                   <prefix>NULL</prefix>
-                  <value>additionalTitles</value>
+                  <value>AdditionalTitles</value>
                 </create>
                 <read>NULL</read>
                 <update>NULL</update>
@@ -713,9 +1266,9 @@
               </actions>
             </properties>
             <children>
-              <element name="additionalTitle">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -724,7 +1277,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Additional Title</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -733,20 +1285,79 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>additionalTitle</value>
+                      <value>AdditionalTitle</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="additionalTitleValue">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Additional Title</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="additionalTitleType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Additional Title Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
           <element name="callNumbers">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -772,9 +1383,9 @@
               </actions>
             </properties>
             <children>
-              <element name="callNumbers">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -783,7 +1394,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Call Numbers</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -792,20 +1402,79 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>callNumber</value>
+                      <value>CallNumber</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="callNumber">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Call Number</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>value</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                  <element name="callNumberType">
+                    <properties>
+                      <type>textfield</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Call Number Type</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>type</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
           <element name="additionalDescriptiveNotesForOverallWorks">
             <properties>
-              <type>tags</type>
+              <type>tabs</type>
               <access>TRUE</access>
               <collapsed>FALSE</collapsed>
               <collapsible>FALSE</collapsible>
@@ -831,9 +1500,9 @@
               </actions>
             </properties>
             <children>
-              <element name="Descriptive Note">
+              <element name="0">
                 <properties>
-                  <type>tag</type>
+                  <type>tabpanel</type>
                   <access>TRUE</access>
                   <collapsed>FALSE</collapsed>
                   <collapsible>FALSE</collapsible>
@@ -842,7 +1511,6 @@
                   <multiple>FALSE</multiple>
                   <required>FALSE</required>
                   <resizable>FALSE</resizable>
-                  <title>Additional Descriptive Note For Overall Works</title>
                   <tree>TRUE</tree>
                   <actions>
                     <create>
@@ -851,14 +1519,44 @@
                       <schema/>
                       <type>element</type>
                       <prefix>NULL</prefix>
-                      <value>descriptiveNote</value>
+                      <value>additionalDescriptiveNoteForOverallWorks</value>
                     </create>
                     <read>NULL</read>
                     <update>NULL</update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
-                <children/>
+                <children>
+                  <element name="Descriptive Note">
+                    <properties>
+                      <type>textarea</type>
+                      <access>TRUE</access>
+                      <collapsed>FALSE</collapsed>
+                      <collapsible>FALSE</collapsible>
+                      <disabled>FALSE</disabled>
+                      <executes_submit_callback>FALSE</executes_submit_callback>
+                      <multiple>FALSE</multiple>
+                      <required>FALSE</required>
+                      <resizable>FALSE</resizable>
+                      <title>Additional Descriptive Note For Overall Works</title>
+                      <tree>TRUE</tree>
+                      <actions>
+                        <create>
+                          <path>self::node()</path>
+                          <context>parent</context>
+                          <schema/>
+                          <type>element</type>
+                          <prefix>NULL</prefix>
+                          <value>Additional Descriptive Note</value>
+                        </create>
+                        <read>NULL</read>
+                        <update>NULL</update>
+                        <delete>NULL</delete>
+                      </actions>
+                    </properties>
+                    <children/>
+                  </element>
+                </children>
               </element>
             </children>
           </element>
