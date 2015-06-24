@@ -54,7 +54,7 @@
               <value>DescriptiveMetadata</value>
             </create>
             <read>
-              <path>cavpp:DescriptiveMetadata</path>
+              <path>self::node()/cavpp:DescriptiveMetadata</path>
               <context>parent</context>
             </read>
             <update>
@@ -140,8 +140,14 @@
                       <prefix>NULL</prefix>
                       <value>Title</value>
                     </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
+                    <read>
+                      <path>self::node()/cavpp:Title</path>
+                      <context>parent</context>
+                    </read>
+                    <update>
+                      <path>self::node()</path>
+                      <context>self</context>
+                    </update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
@@ -169,7 +175,7 @@
                           <value>value</value>
                         </create>
                         <read>
-                          <path>self::node()/cavpp:Title</path>
+                          <path>self::node()/cavpp:value</path>
                           <context>parent</context>
                         </read>
                         <update>
@@ -258,8 +264,14 @@
                           <prefix>NULL</prefix>
                           <value>AdditionalTitles</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:AdditionalTitles</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -285,8 +297,14 @@
                               <prefix>NULL</prefix>
                               <value>AdditionalTitle</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:AdditionalTitle</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -408,10 +426,16 @@
                           <schema/>
                           <type>element</type>
                           <prefix>NULL</prefix>
-                          <value>CallNumber</value>
+                          <value>CallNumbers</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:CallNumbers</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -437,8 +461,14 @@
                               <prefix>NULL</prefix>
                               <value>CallNumber</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:CallNumber</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -583,8 +613,14 @@
                           <prefix>NULL</prefix>
                           <value>Creator</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Creator</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -691,8 +727,14 @@
                       <prefix>NULL</prefix>
                       <value>Years</value>
                     </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
+                    <read>
+                      <path>self::node()/cavpp:Years</path>
+                      <context>parent</context>
+                    </read>
+                    <update>
+                      <path>self::node()</path>
+                      <context>self</context>
+                    </update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
@@ -718,8 +760,14 @@
                           <prefix>NULL</prefix>
                           <value>Year</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Year</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -785,7 +833,7 @@
                               <value>dateType</value>
                             </create>
                             <read>
-                              <path>self::node()/cavpp:element</path>
+                              <path>self::node()/cavpp:dateType</path>
                               <context>parent</context>
                             </read>
                             <update>
@@ -968,8 +1016,14 @@
                           <prefix>NULL</prefix>
                           <value>Descriptions</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Descriptions</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -995,8 +1049,14 @@
                               <prefix>NULL</prefix>
                               <value>Description</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:Description</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -1120,8 +1180,14 @@
                           <prefix>NULL</prefix>
                           <value>Contributors</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Contributors</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -1147,8 +1213,14 @@
                               <prefix>NULL</prefix>
                               <value>Contributor</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:Contributor</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -1272,8 +1344,14 @@
                           <prefix>NULL</prefix>
                           <value>Publishers</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Publishers</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -1299,8 +1377,14 @@
                               <prefix>NULL</prefix>
                               <value>Publisher</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:Publisher</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -1424,8 +1508,14 @@
                           <prefix>NULL</prefix>
                           <value>LanguagesOfMaterial</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:LanguagesOfMaterial</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -1509,8 +1599,14 @@
                           <prefix>NULL</prefix>
                           <value>SubjectTopics</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:SubjectTopics</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -1536,8 +1632,14 @@
                               <prefix>NULL</prefix>
                               <value>SubjectTopic</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:SubjectTopic</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -1814,8 +1916,14 @@
                           <prefix>NULL</prefix>
                           <value>Coverages</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Coverages</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -1841,8 +1949,14 @@
                               <prefix>NULL</prefix>
                               <value>Coverage</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:Coverage</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -2114,8 +2228,14 @@
                           <prefix>NULL</prefix>
                           <value>Relationships</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:Relationships</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -2141,8 +2261,14 @@
                               <prefix>NULL</prefix>
                               <value>relationship</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:relationship</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -2266,8 +2392,14 @@
                           <prefix>NULL</prefix>
                           <value>AdditionalDescriptiveNotesForOverallWork</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:AdditionalDescriptiveNotesForOverallWork</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -2293,8 +2425,14 @@
                               <prefix>NULL</prefix>
                               <value>additionalDescriptiveNoteForOverallWork</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:additionalDescriptiveNoteForOverallWork</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -2432,8 +2570,14 @@
                           <prefix>NULL</prefix>
                           <value>CatalogerNotes</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:CatalogerNotes</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -2459,8 +2603,14 @@
                               <prefix>NULL</prefix>
                               <value>CatalogerNote</value>
                             </create>
-                            <read>NULL</read>
-                            <update>NULL</update>
+                            <read>
+                              <path>self::node()/cavpp:CatalogerNote</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
                             <delete>NULL</delete>
                           </actions>
                         </properties>
@@ -2906,17 +3056,20 @@
           <actions>
             <create>
               <path>self::node()</path>
-              <context>document</context>
+              <context>parent</context>
               <schema/>
               <type>element</type>
               <prefix>NULL</prefix>
               <value>TechnicalMetadataAboutOriginal</value>
             </create>
             <read>
-              <path>TechnicalMetadataAboutOriginal</path>
-              <context>document</context>
+              <path>self::node()/cavpp:TechnicalMetadataAboutOriginal</path>
+              <context>parent</context>
             </read>
-            <update>NULL</update>
+            <update>
+              <path>self::node()</path>
+              <context>self</context>
+            </update>
             <delete>NULL</delete>
           </actions>
         </properties>
@@ -2966,10 +3119,7 @@
                       <path>self::node()</path>
                       <context>self</context>
                     </update>
-                    <delete>
-                      <path>self::node()</path>
-                      <context>self</context>
-                    </delete>
+                    <delete>NULL</delete>
                   </actions>
                 </properties>
                 <children/>
@@ -3654,8 +3804,14 @@
                           <prefix>NULL</prefix>
                           <value>AdditionalTechnicalNotesForOverallWork</value>
                         </create>
-                        <read>NULL</read>
-                        <update>NULL</update>
+                        <read>
+                          <path>self::node()/cavpp:AdditionalTechnicalNotesForOverallWork</path>
+                          <context>parent</context>
+                        </read>
+                        <update>
+                          <path>self::node()</path>
+                          <context>self</context>
+                        </update>
                         <delete>NULL</delete>
                       </actions>
                     </properties>
@@ -3672,6 +3828,25 @@
                           <required>FALSE</required>
                           <resizable>FALSE</resizable>
                           <tree>TRUE</tree>
+                          <actions>
+                            <create>
+                              <path>self::node()</path>
+                              <context>parent</context>
+                              <schema/>
+                              <type>element</type>
+                              <prefix>NULL</prefix>
+                              <value>AdditionalTechnicalNoteForOverallWork</value>
+                            </create>
+                            <read>
+                              <path>self::node()/cavpp:AdditionalTechnicalNoteForOverallWork</path>
+                              <context>parent</context>
+                            </read>
+                            <update>
+                              <path>self::node()</path>
+                              <context>self</context>
+                            </update>
+                            <delete>NULL</delete>
+                          </actions>
                         </properties>
                         <children>
                           <element name="Technical Note">
@@ -3738,14 +3913,20 @@
           <actions>
             <create>
               <path>self::node()</path>
-              <context>document</context>
+              <context>parent</context>
               <schema/>
               <type>element</type>
               <prefix>NULL</prefix>
               <value>AdministrativeMetadata</value>
             </create>
-            <read>NULL</read>
-            <update>NULL</update>
+            <read>
+              <path>self::node()/cavpp:AdministrativeMetadata</path>
+              <context>document</context>
+            </read>
+            <update>
+              <path>self::node()</path>
+              <context>self</context>
+            </update>
             <delete>NULL</delete>
           </actions>
         </properties>
@@ -4155,8 +4336,14 @@
                   <prefix>NULL</prefix>
                   <value>CAVPPQualityControlNotes</value>
                 </create>
-                <read>NULL</read>
-                <update>NULL</update>
+                <read>
+                  <path>self::node()/cavpp:CAVPPQualityControlNotes</path>
+                  <context>parent</context>
+                </read>
+                <update>
+                  <path>self::node()</path>
+                  <context>self</context>
+                </update>
                 <delete>NULL</delete>
               </actions>
             </properties>
@@ -4182,8 +4369,14 @@
                       <prefix>NULL</prefix>
                       <value>CAVPPQualityControlNotes</value>
                     </create>
-                    <read>NULL</read>
-                    <update>NULL</update>
+                    <read>
+                      <path>self::node()/cavpp:CAVPPQualityControlNotes</path>
+                      <context>parent</context>
+                    </read>
+                    <update>
+                      <path>self::node()</path>
+                      <context>self</context>
+                    </update>
                     <delete>NULL</delete>
                   </actions>
                 </properties>
